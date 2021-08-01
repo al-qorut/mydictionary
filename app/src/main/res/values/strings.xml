@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My Dictionary</string>
+    <string name="action_about">About</string>
+    <string name="action_share">Share</string>
+    <string name="action_rate">Rate</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_infak">Infak</string>
+    <string name="input">Masukan kata</string>
+    <string name="app_id">"ca-app-pub-3624492980147085~9560035411"</string>
+    <string name="ad_unit_baner">ca-app-pub-3624492980147085/9775657837</string>
+    <string name="ad_unit_inter">ca-app-pub-3624492980147085/8042051565</string>
+
+    <string name="tak_ada_hasil">Tak ada \"%s\" dalam database</string>
+    <string name="tulisanDiKotakCari">Pencarian</string>
+    <string name="artinya">Artinya</string>
+    <string name="exit">Exit</string>
+    <string name="in_en">Indonesia - English</string>
+    <string name="loading">Tunggu... sedang mempersiapkan data\nHanya sekali</string>
+    <string name="title_about">%s \nVersi : %s</string>
+    <string name="body_about"><ol>
+        <li>Kamus Indonesia- Inggris\nInggris - Indonesia
+[Ditulis oleh: Firmansyah, Ardhan Madras]
+[Website http://gkamus.sourceforge.net]</li>
+<li>KBBI (Kamus Besar Bahasa Indonesia)
+kbbi.kemdikbud.go.id (KBBI IV)</li>
+<li>Kamus Inggris - Inggris
+Oxford English Dictionary
+    [www.dict.org]</li>
+      <li>Arab - Indonesia</li>
+       <li>Indonesia - Arab</li>
+       <li>Arab - Arab</li>
+    </ol>
+    </string>
+    <string name="close">close</string>
+    <string name="apply">Apply</string>
+    <string name="congratulations">Selamat</string>
+    <string name="success_body">Sucsess</string>
+    <string name="done">Ok</string>
+    <string name="copytoclip">%s \ntelah dicopy ke clipboard</string>
+    <string name="rate">Rate</string>
+    <string name="title_rate">Menilai Aplikasi</string>
+    <string name="no_play_store">Playstore tidak ada</string>
+    <string name="no">Tidak</string>
+    <string name="pilih">Pilih..</string>
+    <string name="extract_data">Tunggu hanya sekali saja...  \nsedang mempersiapkan data</string>
+    <string-array name="fontsize">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>
