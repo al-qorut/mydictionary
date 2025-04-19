@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <!-- Dark Color!-->
+    <color name="colorPrimary">#393738</color>
+    <color name="colorPrimaryDark">#393738</color>
+    <color name="colorAccent">#e30425</color>
+    <color name="primaryText">#FFFFFF</color>
+    <color name="icon">#42a5f5</color>
+    <color name="buttonNormal">#e30425</color>
+    <color name="buttonHighlight">#ff554f</color>
+    <color name="buttonText">#FFFFFF</color>
+
+
+    <color name="bgCardView">@color/colorPrimary</color>
+    <color name="bgIcon">@color/colorPrimary</color>
+    <color name="grey">#FF9E9E9E</color>
+    <color name="md_grey_800_dark">#2D2D2D</color>
+    <color name="theme_dark_background_color">@color/md_grey_800_dark</color>
+    <color name="default_background_color">@color/theme_dark_background_color</color>
+    <color name="transparent_black">#33000000</color>
+    <color name="navi">#2D3D4F</color>
+    <color name="divider_grey">#55808080</color>
+
+    <!-- Mint Theme Colors
+    <color name="mintColorPrimary">#76be2f</color>
+    <color name="mintColorPrimaryDark">#76be2f</color> -->
+    <color name="mintColorPrimary">@color/light_gray</color>
+    <color name="mintColorPrimaryDark">@color/light_gray</color>
+    <color name="mintColorAccent">#f9a825</color>
+    <color name="mintPrimaryText">#424242</color>
+    <color name="mintIcon">#8DFF4F</color>
+    <color name="mintButtonNormal">#76be2f</color>
+    <color name="mintButtonHighlight">#81c784</color>
+
+    <color name="mintButtonText">@color/colorPrimary</color>
+    <color name="mintbgCardView">#FFFFFF</color>
+
+    <color name="translation_hdr_color">#ff649ab8</color>
+    <color name="accent_color_dark">@color/color_control_normal</color>
+    <color name="color_control_activated">@color/accent_color</color>
+    <color name="color_control_normal">#8946ded0</color>
+    <color name="accent_color">#ffb2dfdb</color>
+    <color name="page_background">#FFF4CB</color>
+    <color name="panel_background_color">#ff424242</color>
+    <color name="tranparent">#00000000</color>
+    <color name="linkColor">#42a5f5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="transparan">#f0f0f0</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="light_gray">#DFDFDF</color>
+    <color name="shadow">#737373</color>
+    <color name="pressed_item_foreground">#08000000</color>
+
+</resources>

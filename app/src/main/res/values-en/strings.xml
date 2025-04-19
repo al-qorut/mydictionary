@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">My Dictionary</string>
+    <string name="action_about">About</string>
+    <string name="action_share">Share</string>
+    <string name="action_rate">Rate</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_infak">Infak</string>
+    <string name="input">Enter a word</string>
+    <string name="app_id">"ca-app-pub-3624492980147085~9560035411"</string>
+    <string name="ad_unit_baner">ca-app-pub-3624492980147085/9775657837</string>
+    <string name="ad_unit_inter">ca-app-pub-3624492980147085/8042051565</string>
+
+    <string name="tak_ada_hasil">No \"%s\" found in the database</string>
+    <string name="tulisanDiKotakCari">Search</string>
+    <string name="artinya">Meaning</string>
+    <string name="exit">Exit</string>
+    <string name="in_en">Indonesian - English</string>
+    <string name="loading">Please wait... preparing data\nOnly once</string>
+    <string name="title_about">%s \nVersion: %s</string>
+    <string name="body_about"><b>My Dictionary</b> is a multilingual dictionary application for Indonesian-Arabic-English. The source code is available at <a href='https://github.com/al-qorut/mydictionary.git'>github.com</a> for learning and practice purposes, not for commercial use.</string>
+    <string name="close">Close</string>
+    <string name="apply">Apply</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="success_body">Success</string>
+    <string name="done">Ok</string>
+    <string name="copytoclip">%s \nhas been copied to the clipboard</string>
+    <string name="rate">Rate</string>
+    <string name="title_rate">Rate the App</string>
+    <string name="no_play_store">Playstore not available</string>
+    <string name="no">No</string>
+    <string name="pilih">Select..</string>
+    <string name="extract_data">Please wait just once... \npreparing data</string>
+    <string name="search">Search..</string>
+    <string name="info">Info</string>
+    <string name="favorite">Favorite</string>
+    <string name="home">Home</string>
+    <string name="info_cari_kata">The dictionary consists of Arabic-Arabic</string>
+    <string-array name="fontsize">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="action_bonus">Ad Bonus</string>
+    <string name="language">Language</string>
+    <string name="nama_font">Fonts</string>
+    <string name="font_value">Amiri.ttf</string>
+    <string name="size_font">Font Size</string>
+    <string name="font_size_value">Medium</string>
+    <string name="label_infak">INFAT</string>
+    <string name="display_name">Display Name</string>
+    <string name="have_infak_iklan">Infak Ads</string>
+    <string name="count_iklan">Ad Count</string>
+    <string name="is_show_arti">Show Meaning</string>
+    <string name="is_show_latin">Show Latin</string>
+    <string name="view_doa">Display</string>
+    <string name="default_sistem">Default System</string>
+    <string name="font_amiri">Amiri</string>
+    <string name="font_qalam">Qalam</string>
+    <string name="size_mini">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+    <string name="thema_mint">Dark Theme</string>
+    <string name="tak_ada_favorite">No favorite word list yet</string>
+    <string name="source">Source: %1s</string>
+    <string name="arti_include">Cari kata di arti</string>
+</resources>

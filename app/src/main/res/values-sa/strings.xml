@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">قاموسي</string>
+    <string name="action_about">حول</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_rate">تقييم</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_infak">الصدقة</string>
+    <string name="input">أدخل كلمة</string>
+    <string name="app_id">"ca-app-pub-3624492980147085~9560035411"</string>
+    <string name="ad_unit_baner">ca-app-pub-3624492980147085/9775657837</string>
+    <string name="ad_unit_inter">ca-app-pub-3624492980147085/8042051565</string>
+
+    <string name="tak_ada_hasil">لم يتم العثور على "%s" في قاعدة البيانات</string>
+    <string name="tulisanDiKotakCari">بحث</string>
+    <string name="artinya">المعنى</string>
+    <string name="exit">خروج</string>
+    <string name="in_en">الإندونيسية - الإنجليزية</string>
+    <string name="loading">يرجى الانتظار... جاري تحضير البيانات\nمرة واحدة فقط</string>
+    <string name="title_about">%s \nالإصدار: %s</string>
+    <string name="body_about"><b>قاموسي</b> هو تطبيق قاموس متعدد اللغات للإندونيسية-العربية-الإنجليزية. الكود المصدري متاح على <a href='https://github.com/al-qorut/mydictionary.git'>github.com</a> لأغراض التعلم والتدريب، وليس للاستخدام التجاري.</string>
+    <string name="close">إغلاق</string>
+    <string name="apply">تطبيق</string>
+    <string name="congratulations">مبروك</string>
+    <string name="success_body">نجاح</string>
+    <string name="done">تم</string>
+    <string name="copytoclip">%s \nتم نسخه إلى الحافظة</string>
+    <string name="rate">تقييم</string>
+    <string name="title_rate">تقييم التطبيق</string>
+    <string name="no_play_store">لا يوجد متجر بلاي</string>
+    <string name="no">لا</string>
+    <string name="pilih">اختار..</string>
+    <string name="extract_data">يرجى الانتظار مرة واحدة فقط... \nجاري تحضير البيانات</string>
+    <string name="search">بحث..</string>
+    <string name="info">معلومات</string>
+    <string name="favorite">المفضلة</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="info_cari_kata">القاموس يتكون من عربي-عربي</string>
+    <string-array name="fontsize">
+        <item>صغير</item>
+        <item>متوسط</item>
+        <item>كبير</item>
+    </string-array>
+
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="action_bonus">مكافأة الإعلانات</string>
+    <string name="language">اللغة</string>
+    <string name="nama_font">الخطوط</string>
+    <string name="font_value">Amiri.ttf</string>
+    <string name="size_font">حجم الخط</string>
+    <string name="font_size_value">متوسط</string>
+    <string name="label_infak">الصدقة</string>
+    <string name="display_name">اسم العرض</string>
+    <string name="have_infak_iklan">إعلانات الصدقة</string>
+    <string name="count_iklan">عدد الإعلانات</string>
+    <string name="is_show_arti">عرض المعنى</string>
+    <string name="is_show_latin">عرض اللاتينية</string>
+    <string name="view_doa">العرض</string>
+    <string name="default_sistem">النظام الافتراضي</string>
+    <string name="font_amiri">أميري</string>
+    <string name="font_qalam">قلم</string>
+    <string name="size_mini">صغير</string>
+    <string name="size_medium">متوسط</string>
+    <string name="size_large">كبير</string>
+    <string name="thema_mint">ثيم داكن</string>
+    <string name="tak_ada_favorite">لا توجد كلمات مفضلة بعد</string>
+    <string name="source">المصدر: %1s</string>
+    <string name="arti_include">Cari kata di arti</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="smk.adzikro.mydictionary.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/main_fragment" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="smk.adzikro.mydictionary.ui.fragments.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/result_fragment" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="smk.adzikro.mydictionary.ui.fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/main_fragment" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="smk.adzikro.mydictionary.ui.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/info_fragment" />
+</navigation>

@@ -1,0 +1,93 @@
+[versions]
+agp = "8.8.0"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+#Room
+room = "2.6.0-rc01"
+ksp = "1.9.10-1.0.13"
+hiltVersion = "2.51.1"
+#Glide
+glide = "4.16.0"
+rxjava = "3.1.10"
+rxandroid = "3.0.2"
+navigationFragmentKtx = "2.8.6"
+navigationUiKtx = "2.8.6"
+lotte = "5.2.0"
+googleAppGoogleServices = "2.1.0"
+ads = "23.6.0"
+pagingRuntimeKtx = "3.3.5"
+pagingRxJava = "3.3.5"
+sqlChiper = "4.5.4"
+securityCryptoKtx = "1.1.0-alpha06"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+#Room
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+rxroom = { group = "androidx.room", name = "room-rxjava3", version = "room" }
+
+r8 = { group = "com.android.tools", name = "r8", version = "8.7.18" }
+
+hilt-android = { group = "com.google.dagger", name = "hilt-android" ,version.ref = "hiltVersion"}
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler" ,version.ref = "hiltVersion"}
+#Glide
+#glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+
+#rx-jav
+rxjava = { group = "io.reactivex.rxjava3", name = "rxjava", version.ref = "rxjava" }
+rxandroid = { group = "io.reactivex.rxjava3", name = "rxandroid", version.ref = "rxandroid" }
+
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+lotte = { group = "com.airbnb.android", name = "lottie", version.ref = "lotte" }
+#app-update
+app-update = { group = "com.google.android.play", name = "app-update", version.ref = "googleAppGoogleServices" }
+app-update-ktx = { group = "com.google.android.play", name = "app-update-ktx", version.ref = "googleAppGoogleServices" }
+#androidx-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "ads" }
+androidx-paging-runtime-ktx = { group = "androidx.paging", name = "paging-runtime-ktx", version.ref = "pagingRuntimeKtx" }
+androidx-paging-rxjava = { group = "androidx.paging", name = "paging-rxjava3", version.ref = "pagingRxJava" }
+
+#sql-chiper
+sql-cipher = { group = "net.zetetic", name = "android-database-sqlcipher", version.ref = "sqlChiper"  }
+androidx-security-crypto-ktx = { group = "androidx.security", name = "security-crypto-ktx", version.ref = "securityCryptoKtx" }
+
+[bundles]
+room = [
+    "androidx-room-ktx",
+    "androidx-room-runtime",
+    "androidx-room-paging",
+    "rxroom"
+]
+rxjava = [
+    "rxjava",
+    "rxandroid"
+]
+appudapte = [
+    "app-update",
+    "app-update-ktx"
+]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hiltAndroid = { id = "com.google.dagger.hilt.android", version.ref ="hiltVersion" }
+parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+
